@@ -15,3 +15,24 @@ body {
 .framer-wrapper {
   width: 500px;
 }
+
+.showbox-wrapper {
+  width: 500px;
+}
+
+.button-area {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-style {
+  width: 100%;
+  height: 500px;
+  background-color: gray;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
