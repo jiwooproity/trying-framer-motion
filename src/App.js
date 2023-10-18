@@ -4,6 +4,7 @@ import RotateBox from "./framer/RotateBox";
 import ShowBox from "./framer/ShowBox";
 import PagingBox from "./framer/PagingBox";
 import MoveBox from "./framer/MoveBox";
+import First from "./practice/First";
 
 const TestComponentRender = () => (
   <div className="framer-container">
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/" element={<TestComponentRender />} />
         <Route path="/paging" element={<PagingBox />} />
         <Route path="/movebox" element={<MoveBox />} />
+        <Route path="/practice" element={<First />} />
       </Routes>
     </BrowserRouter>
   );

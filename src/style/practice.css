@@ -1,0 +1,48 @@
+.practice-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.practice-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.practice-menu-area {
+  width: 100%;
+}
+
+.practice-menu {
+  list-style: none;
+  display: flex;
+}
+
+.practice-menu-item {
+  width: 100%;
+  padding: 15px 0px 15px 0px;
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 700;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.practice-text-area {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+}
+
+.practice-text {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+}
