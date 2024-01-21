@@ -1,0 +1,25 @@
+.control-scale-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 234, 205, 1);
+}
+
+.control-scale-box {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgba(25, 25, 25, 1);
+}
+
+.control-scale-box-text {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: white;
+}
